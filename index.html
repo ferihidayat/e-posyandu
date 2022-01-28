@@ -1,0 +1,326 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="utf-8">
+    <title>E Posyandu | Kelompok 9</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="A fully featured admin theme which can be used to build CRM, CMS, etc." name="description">
+    <meta content="Coderthemes" name="author">
+    <!-- App favicon -->
+    <link rel="shortcut icon" href="assets/img/tpr_icon_sm.png">
+
+    <!-- third party css -->
+    <link href="assets/css/vendor/jquery-jvectormap-1.2.2.css" rel="stylesheet" type="text/css">
+    <!-- third party css end -->
+
+    <!-- App css -->
+    <link href="assets/css/icons.min.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/app.css" rel="stylesheet" type="text/css" id="light-style">
+
+</head>
+
+<body class="loading" data-layout-config='{"leftSideBarTheme":"light","layoutBoxed":false, "leftSidebarCondensed":false,
+    "leftSidebarScrollable":false,"darkMode":false, "showRightSidebarOnStart": true }'>
+    <!-- Begin page -->
+    <div class="wrapper">
+        <!-- ========== Left Sidebar Start ========== -->
+        <div class="leftside-menu">
+
+            <!-- LOGO -->
+            <a href="index.html" class="logo text-center logo-dark">
+                <span class="logo-lg">
+                    <img src="assets/img/logo.png" alt="" height="25">
+                </span>
+                <span class="logo-sm">
+                    <img src="assets/img/tpr_icon_sm.png" alt="" height="30">
+                </span>
+            </a>
+
+            <div class="h-100" id="leftside-menu-container" data-simplebar="">
+
+                <!--- Sidemenu -->
+                <ul class="side-nav">
+
+                    <li class="side-nav-title side-nav-item">Menu</li>
+                    <li class="side-nav-item">
+                        <a href="index.html" class="side-nav-link">
+                            <i class="uil-home-alt"></i>
+                            <span> Beranda </span>
+                        </a>
+                    </li>
+
+
+                    <li class="side-nav-item">
+                        <a href="dataanak.html" class="side-nav-link">
+                            <i class="uil-window"></i>
+                            <span> Data Anak </span>
+                        </a>
+                    </li>
+
+                    <li class="side-nav-item">
+                        <a href="posyandu.html" class="side-nav-link">
+                            <i class="uil-table"></i>
+                            <span> Posyandu </span>
+                        </a>
+                    </li>
+
+
+                </ul>
+
+
+                <div class="clearfix"></div>
+
+            </div>
+            <!-- Sidebar -left -->
+
+        </div>
+        <!-- Left Sidebar End -->
+
+        <!-- ============================================================== -->
+        <!-- Start Page Content here -->
+        <!-- ============================================================== -->
+
+        <div class="content-page">
+            <div class="content">
+                <!-- Topbar Start -->
+                <div class="navbar-custom">
+                    <ul class="list-unstyled topbar-menu float-end mb-0">
+
+
+                        <li class="dropdown notification-list">
+                            <a class="nav-link dropdown-toggle arrow-none" data-bs-toggle="dropdown" href="#"
+                                role="button" aria-haspopup="false" aria-expanded="false">
+                                <i class="dripicons-bell noti-icon"></i>
+                                <span class="noti-icon-badge"></span>
+                            </a>
+                            <div class="dropdown-menu dropdown-menu-end dropdown-menu-animated dropdown-lg">
+
+                                <!-- item-->
+                                <div class="dropdown-item noti-title">
+                                    <h5 class="m-0">
+                                        <span class="float-end">
+                                            <a href="javascript: void(0);" class="text-dark">
+                                                <small>Clear All</small>
+                                            </a>
+                                        </span>Notification
+                                    </h5>
+                                </div>
+
+                                <div style="max-height: 230px;" data-simplebar="">
+                                    <!-- item-->
+                                    <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                        <div class="notify-icon bg-primary">
+                                            <i class="mdi mdi-comment-account-outline"></i>
+                                        </div>
+                                        <p class="notify-details">System update version 1.7.0.99
+                                            <small class="text-muted">1 min ago</small>
+                                        </p>
+                                    </a>
+
+
+                                </div>
+
+                                <!-- All-->
+                                <a href="javascript:void(0);"
+                                    class="dropdown-item text-center text-primary notify-item notify-all">
+                                    View All
+                                </a>
+
+                            </div>
+                        </li>
+
+
+
+
+                        <li class="dropdown notification-list">
+                            <a class="nav-link dropdown-toggle nav-user arrow-none me-0" data-bs-toggle="dropdown"
+                                href="#" role="button" aria-haspopup="false" aria-expanded="false">
+                                <span class="account-user-avatar">
+                                    <img src="assets/img/profile.jpg" alt="user-image" class="rounded-circle">
+                                </span>
+                                <span>
+                                    <span class="account-user-name">Feri Hidayatulloh</span>
+                                    <span class="account-position">Member</span>
+                                </span>
+                            </a>
+                            <div
+                                class="dropdown-menu dropdown-menu-end dropdown-menu-animated topbar-dropdown-menu profile-dropdown">
+                                <!-- item-->
+                                <div class=" dropdown-header noti-title">
+                                    <h6 class="text-overflow m-0">Welcome !</h6>
+                                </div>
+
+                                <!-- item-->
+                                <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                    <i class="mdi mdi-account-circle me-1"></i>
+                                    <span>My Account</span>
+                                </a>
+
+                                <!-- item-->
+                                <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                    <i class="mdi mdi-account-edit me-1"></i>
+                                    <span>Settings</span>
+                                </a>
+                                <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                    <i class="mdi mdi-logout me-1"></i>
+                                    <span>Logout</span>
+                                </a>
+                            </div>
+                        </li>
+
+                    </ul>
+                    <button class="button-menu-mobile open-left">
+                        <i class="mdi mdi-menu"></i>
+                    </button>
+
+                </div>
+                <!-- end Topbar -->
+
+                <!-- Start Content-->
+                <div class="container-fluid">
+
+                    <!-- start page title -->
+                    <div class="row">
+                        <div class="col-12">
+                            <h4 class="mb-4 mt-4">Selamat datang , Feri Hidayatulloh</h4>
+                        </div>
+                    </div>
+                    <!-- end row -->
+                    <div class="row">
+                        <div class="col-lg-6 m-auto mb-4">
+                            <form>
+                                <div class="input-group">
+                                    <input type="text" class="form-control dropdown-toggle" placeholder="Search..."
+                                        id="top-search">
+
+                                    <button class="input-group-text btn-primary" type="submit"> <span
+                                            class="mdi mdi-magnify search-icon"></span></button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+
+
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="row row-cols-1 row-cols-md-3 g-3">
+                                <div class="col">
+                                    <div class="card">
+                                        <img src="assets/img/artikel.jpg" class="card-img-top" height="210"
+                                            alt="Card image cap">
+                                        <div class="card-body">
+                                            <h5 class="card-title title-article"><a href="details-blog.html"> Lorem
+                                                    ipsum dolor sit, amet
+                                                    consectetur
+                                                    adipisicing.</a>
+                                            </h5>
+                                            <p class="card-text">This is a longer card with supporting text below as
+                                                a natural lead-in to additional.</p>
+                                            <p class="card-text">
+                                                <small class="text-muted">Post on 21 Januari 2022</small>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card">
+                                        <img src="assets/img/artikel2.jpg" class="card-img-top" height="210"
+                                            alt="Card image cap">
+                                        <div class="card-body">
+                                            <h5 class="card-title title-article"><a href="details-blog.html"> Lorem
+                                                    ipsum dolor sit amet
+                                                    consectetur.
+                                                    Lorem, ipsum.</a>
+                                            </h5>
+                                            <p class="card-text">This card has supporting text below as a natural
+                                                lead-in to additional content.</p>
+                                            <p class="card-text">
+                                                <small class="text-muted">Post on 21 Januari 2022</small>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card">
+                                        <img src="assets/img/artikel.jpg" class="card-img-top" height="210"
+                                            alt="Card image cap">
+                                        <div class="card-body">
+                                            <h5 class="card-title title-article"><a href="details-blog.html">Lorem ipsum
+                                                    dolor sit, amet
+                                                    consectetur
+                                                    adipisicing.</a>
+                                            </h5>
+                                            <p class="card-text">This is a wider card with supporting text below as
+                                                a natural lead-in to additional.</p>
+                                            <p class="card-text">
+                                                <small class="text-muted">Post on 21 Januari 2022</small>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> <!-- end col-->
+                    </div>
+                    <!-- end row -->
+
+
+
+
+                    <!-- end row -->
+
+                </div>
+                <!-- container -->
+
+            </div>
+            <!-- content -->
+
+            <!-- Footer Start -->
+            <footer class="footer">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <script>
+                                document.write(new Date().getFullYear())
+                            </script> © Hyper - Coderthemes.com
+                        </div>
+                        <div class="col-md-6">
+                            <div class="text-md-end footer-links d-none d-md-block">
+                                <a href="javascript: void(0);">About</a>
+                                <a href="javascript: void(0);">Support</a>
+                                <a href="javascript: void(0);">Contact Us</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            <!-- end Footer -->
+
+        </div>
+
+        <!-- ============================================================== -->
+        <!-- End Page content -->
+        <!-- ============================================================== -->
+
+
+    </div>
+
+    <!-- /End-bar -->
+
+    <!-- bundle -->
+    <script src="assets/js/vendor.min.js"></script>
+    <script src="assets/js/app.min.js"></script>
+
+    <!-- third party js -->
+    <script src="assets/js/vendor/apexcharts.min.js"></script>
+    <script src="assets/js/vendor/jquery-jvectormap-1.2.2.min.js"></script>
+    <script src="assets/js/vendor/jquery-jvectormap-world-mill-en.js"></script>
+    <!-- third party js ends -->
+
+    <!-- demo app -->
+
+    <!-- end demo js-->
+</body>
+
+</html>
